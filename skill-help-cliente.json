@@ -1,0 +1,940 @@
+{
+  "name": "help cliente",
+  "intents": [
+    {
+      "intent": "dúvidas-sobreOApp",
+      "examples": [
+        {
+          "text": "o que é esse aplicativo?"
+        },
+        {
+          "text": "o que é o gpa?"
+        },
+        {
+          "text": "o que vocês são?"
+        }
+      ],
+      "description": "duvidas gerais"
+    },
+    {
+      "intent": "pagamento",
+      "examples": [
+        {
+          "text": "pagament"
+        },
+        {
+          "text": "modos de pagamento"
+        },
+        {
+          "text": "pagamento"
+        },
+        {
+          "text": "pgamentos"
+        },
+        {
+          "text": "Como eu pago?"
+        },
+        {
+          "text": "Como funciona o pagamento?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "agradecimentos",
+      "examples": [
+        {
+          "text": "Espero ter te ajudado! Obrigado."
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Ótimo!"
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "saudações",
+      "examples": [
+        {
+          "text": "olaris"
+        },
+        {
+          "text": "foi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "terminar-conversa",
+      "examples": [
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        },
+        {
+          "text": "até mais!"
+        },
+        {
+          "text": "Até logo!"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "envio",
+      "examples": [
+        {
+          "text": "envio"
+        },
+        {
+          "text": "frete"
+        },
+        {
+          "text": "entregar"
+        },
+        {
+          "text": "correios"
+        },
+        {
+          "text": "entrega"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tirar-duvida",
+      "examples": [
+        {
+          "text": "voce pode me responder algo?"
+        },
+        {
+          "text": "quero tirar uma duvida"
+        }
+      ],
+      "description": "se deseja tirar duvida sobre algo"
+    },
+    {
+      "intent": "tamanho",
+      "examples": [
+        {
+          "text": "tamanho das roupas"
+        },
+        {
+          "text": "medidas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Nao_Tem_Resp",
+      "examples": [
+        {
+          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
+        },
+        {
+          "text": "Eu não tenho idéia do que você está procurando."
+        },
+        {
+          "text": "Eu não sei o que você deseja."
+        },
+        {
+          "text": "Eu não sei o que te deixará feliz."
+        },
+        {
+          "text": "Eu não sei do que você precisa."
+        },
+        {
+          "text": "Eu ainda não estou convencido."
+        },
+        {
+          "text": "Desculpe por não conseguir te ajudar."
+        },
+        {
+          "text": "Desculpe não poder te ajudar com isso."
+        },
+        {
+          "text": "O que você não me contaria?"
+        },
+        {
+          "text": "Para se honesto, eu não tenho certeza."
+        },
+        {
+          "text": "Você me pegou."
+        },
+        {
+          "text": "Não sei se entendi o que você deseja."
+        },
+        {
+          "text": "Eu não tenho idéia, na verdade."
+        },
+        {
+          "text": "Não sei a resposta para isso, me perdoe."
+        },
+        {
+          "text": "Não tenho a menor idéia."
+        },
+        {
+          "text": "Não tenho certeza se entendo o que você está dizendo."
+        },
+        {
+          "text": "Não tenho idéia."
+        },
+        {
+          "text": "Não tenho uma solução para isso."
+        },
+        {
+          "text": "Não posso te ajudar, desculpe."
+        },
+        {
+          "text": "Não faço idéia."
+        },
+        {
+          "text": "Me perdoe, mas não tenho uma resposta."
+        }
+      ],
+      "description": "Indique não haver uma resposta definitiva a uma pergunta."
+    },
+    {
+      "intent": "duvidas-oqsolicitar",
+      "examples": [
+        {
+          "text": "Em que você pode me ajudar?"
+        },
+        {
+          "text": "Me dê opções"
+        },
+        {
+          "text": "Me sugira o que fazer"
+        },
+        {
+          "text": "O que dá pra fazer?"
+        },
+        {
+          "text": "O que mais posso perguntar?"
+        },
+        {
+          "text": "O que posso fazer?"
+        },
+        {
+          "text": "O que você sabe?"
+        }
+      ],
+      "description": "dúvidas quanto ao que o bot pode ajudar, o que a pessoa pode fazer"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "tipos_de_envio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "em maos",
+          "synonyms": [
+            "pegar pessoalmente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sedex",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rappi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_de_pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "especie",
+          "synonyms": [
+            "a vista",
+            "dinheiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartão de débito",
+          "synonyms": [
+            "conta",
+            "debito",
+            "débito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartão de crédito",
+          "synonyms": [
+            "crédito",
+            "credito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "boleto",
+          "synonyms": [
+            "boletão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "picpay",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tamanho_roupa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "medidas",
+          "synonyms": [
+            "como_tirar_medida",
+            "medida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sob_encomenda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "padrao",
+          "synonyms": [
+            "tamanho_padrao",
+            "p",
+            "m",
+            "g",
+            "roupa_pronta",
+            "pronta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caso a pessoa que realizou seu pedido tiver um localização próxima e for possível combinar via chat tal procedimento, indicamos o uso do aplicativo Rappi para entregas! É um modo fácil de receber seu pedido rapidamente. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556231451902",
+      "metadata": {},
+      "conditions": "@tipos_de_envio:rappi",
+      "dialog_node": "node_10_1556901261412",
+      "previous_sibling": "node_9_1556900112936"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se a localização entre você a pessoa que realizou sua encomenda forem próximas, talvez seja viável combinar um local de entrega em mãos. Utilize o chat a vontade para fechar o que for mais confortável para ambos!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556231451902",
+      "metadata": {},
+      "conditions": "@tipos_de_envio:(em maos)",
+      "dialog_node": "node_9_1556900112936",
+      "previous_sibling": "node_2_1556231764279"
+    },
+    {
+      "type": "standard",
+      "title": "Sedex",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deverá informar o seu CEP para que o valor do frete seja calculado. Após realizar o pagamento a costureira ira confeccionar o pedido e enviar. Você receberá um código de rastreio para acompanhar o seu pedido e ele será entregue no endereço fornecido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556231451902",
+      "metadata": {},
+      "conditions": "@tipos_de_envio:sedex",
+      "dialog_node": "node_2_1556231764279"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Após fechamento do pedido você vai ter acesso ao código do boleto gerado, para ser pago da maneira que você preferir. Após validação do pagamento, o pedido iniciará sua confecção!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556151111524",
+      "metadata": {},
+      "conditions": "@tipo_de_pagamento:boleto",
+      "dialog_node": "node_7_1556897595839",
+      "previous_sibling": "node_6_1556897491921"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pagamentos em espécie funcionam quando a entrega é combinada para ser realizada também em mãos. Converse a pessoa que você deseja realizar o pagamento para ver o melhor para ambos!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556151111524",
+      "metadata": {},
+      "conditions": "@tipo_de_pagamento:especie",
+      "dialog_node": "node_6_1556897491921",
+      "previous_sibling": "node_5_1556897200319"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você precisará ter seus dados em mão. Numero de do cartão, validade , código de segurança. O valor será debitado do cartão informado e o pedido será encaminhado para confecção. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556151111524",
+      "metadata": {},
+      "conditions": "@tipo_de_pagamento:(cartão de débito)",
+      "dialog_node": "node_8_1556897968493",
+      "previous_sibling": "node_7_1556897595839"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O PicPay funciona com pagamentos entre usuários do aplicativo. Então basta entrar em contato com a pessoa que fez sua encomenda para que ela lhe informe seu usuário, caso houver. Dica: talvez esteja no próprio perfil dela!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556151111524",
+      "metadata": {},
+      "conditions": "@tipo_de_pagamento:picpay",
+      "dialog_node": "node_5_1556897200319",
+      "previous_sibling": "node_9_1556152352932"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você precisará ter seus dados em mão. Numero de do cartão, validade , código de segurança. Será necessário inserir os seus dados e escolher o método de parcelamento que melhor se adequa a você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556151111524",
+      "metadata": {},
+      "conditions": "@tipo_de_pagamento:(cartão de crédito)",
+      "dialog_node": "node_9_1556152352932"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1556887179473",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1556887179473",
+      "previous_sibling": "handler_3_1556887179473"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1556887179473",
+      "event_name": "input",
+      "dialog_node": "handler_3_1556887179473"
+    },
+    {
+      "type": "standard",
+      "title": "medidas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As suas medidas sao usadas pela tailor para confeccionar a roupa. Sempre fale com sua tailor sobre quais medidas serao necessarias. "
+              },
+              {
+                "text": ":: Busto – contorne o busto passando pela altura do mamilo. Tome cuidado para a fita estar toda na mesma altura, sem escorregar nas costas. Lingeries com enchimento alteram as medidas. Tente usar o mesmo padrão para não correr o risco de ter sobras na blusa, ou então ter um zíper que não fecha. \n\n:: Cintura – contorne a cintura na medida mais fina. Lembre de não apertar a fita em busca de uma cinturinha mais marcada. \n\n:: Quadril – contorne o quadril na parte mais larga do bumbum. O quadril não é onde fica o cós da sua calça super baixa – esta é chamada cintura baixa, e é uma medida complementar: meça o contorno da cintura baixa e anote o valor. Meça a altura da cintura baixa, partindo da cintura até o ponto no qual foi medido o contorno desta medida complementar. \n\n:: Largura das costas – podemos considerar duas medidas: costas de ombro a ombro – meça do osso no final de um ombro até o osso do outro ombro; \n\n:: Costas cava a cava - levante os braços na altura dos ombros e observe onde fica o início da dobra que vai em direção à axila – esta é a cava. Meça de uma cava à outra. \n\n:: Comprimento da calça – para qualquer medida de comprimento partimos da base onde se encontram ombro e pescoço até a cintura, e da cintura para baixo. Para a modelagem, sempre temos como referência a cintura, sendo assim, modelamos blusa até a cintura, e calça na cintura (alta – no lugar certo da cintura). \n\nEntão, para medir: \n:: Altura do busto: posicione a fita métrica na lateral do pescoço (onde se encontram ombro e pescoço) e meça até o mamilo. \n\n:: Altura da cintura: posicione a fita métrica na lateral do pescoço (onde se encontram ombro e pescoço) e meça até a cintura. \n\n:: Cintura baixa: partindo da cintura até o ponto no qual foi medido o contorno desta medida complementar. \n\n:: Altura do quadril: posicione a fita métrica na cintura e meça até a parte mais larga do bumbum, onde foi medido o contorno do quadril. \n\n:: Altura do joelho: posicione a fita métrica na cintura e meça até o joelho dobrado. \n\n:: Altura do tornozelo: posicione a fita métrica na cintura e meça até o osso do tornozelo. Comprimentos de calça variam de acordo com o modelo, e podem cobrir o sapato, com salto ou sem. Neste caso, tire a medida com o sapato que irá usar. O mesmo vale para saias e vestidos longos – tire a medida com o sapato que irá calçar na festa. \n\n:: Largura do ombro: posicione a fita métrica na lateral do pescoço (onde se encontram ombro e pescoço) e meça até o osso no final do ombro. Se você está usando uma camiseta que tem a costura da manga mais caída, ignore. Seu ombro termina no osso, e depois disso começa o braço. \n\n:: Comprimento do braço: meça do osso onde termina o ombro até o osso do pulso. Tire esta medida com o braço dobrado, colocando a palma da mão no umbigo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1556232118066",
+      "metadata": {},
+      "conditions": "@tamanho_roupa:medidas",
+      "dialog_node": "node_7_1556233399602",
+      "previous_sibling": "node_6_1556233247111"
+    },
+    {
+      "type": "standard",
+      "title": "Sob encomenda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voce tambem pode escolher roupas e pedir sob encomenda. Passando suas medidas para a costureira. Assim tera uma peca exclusiva e modelada para voce."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1556232118066",
+      "metadata": {},
+      "conditions": "@tamanho_roupa:padrao",
+      "dialog_node": "node_6_1556233247111",
+      "previous_sibling": "node_5_1556232118078"
+    },
+    {
+      "type": "standard",
+      "title": "Tamanho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voce pode encontrar lojas e criadores independentes com roupas com forma padrão. P, M e G. Nas informacoes da peca tera as medidas exatas para checar se lhe serve."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1556232118066",
+      "metadata": {},
+      "conditions": "@tamanho_roupa:padrao",
+      "dialog_node": "node_5_1556232118078"
+    },
+    {
+      "type": "slot",
+      "parent": "Bem-vindo",
+      "dialog_node": "slot_2_1556887179473"
+    },
+    {
+      "type": "standard",
+      "title": "Tamanho Roupas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O nosso aplicativo fornece tanto roupas com modelos padroes como P, M, G; quanto roupas com modelos prontos que necessitam das medidas do cliente para se ajustar perfeitamente ao seu corpo"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Se tiver duvidas sobre o tipo de roupa padrao, sob encomenda, ou para tirar suas medidas basta de perguntar e farei o possivel para te esclarecer!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#tamanho",
+      "dialog_node": "node_4_1556232118066",
+      "previous_sibling": "node_1_1556231451902"
+    },
+    {
+      "type": "standard",
+      "title": "Auxílio com pagamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode pagar com cartão de credito, débito, em espécie, por boleto ou por PicPay, qual opção você tem dúvidas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#pagamento",
+      "dialog_node": "node_1_1556151111524",
+      "previous_sibling": "node_11_1556902088906"
+    },
+    {
+      "type": "standard",
+      "title": "Auxilio com entrega",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode receber seu produto por sedex, em maos ou por um serviço Rappi. Esses geralmente são os metodos disponíveis. Mas isso varia de costureira para costureira. Voce sempre pode fazer contato com a tailor em questão e avaliar a melhor opçao para voce."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#envio",
+      "dialog_node": "node_1_1556231451902",
+      "previous_sibling": "node_1_1556151111524"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quer ajuda em alguma coisa? Tente perguntar sobre o Tailor!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Bot_Control_Unsure",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1556905618210",
+      "previous_sibling": "node_3_1556666805709"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Tailor é um aplicativo formado por amantes de criação de roupas. Aqui reunimos clientes, idealizadores, como designers e estilistas, e também pessoas que podem por ideias em prática a partir da costura!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#dúvidas-sobreOApp",
+      "dialog_node": "node_14_1556905742793",
+      "previous_sibling": "node_1_1556910071557"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, tudo bom? Em que posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saudações",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1556666805709",
+      "previous_sibling": "node_14_1556905742793"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada! Fico feliz em ter ajudado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#agradecimentos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1556748074116",
+      "previous_sibling": "node_4_1556232118066"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais, espero ter ajudado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#terminar-conversa",
+      "dialog_node": "node_12_1556904003148",
+      "previous_sibling": "node_2_1556748074116"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tente tirar alguma dúvida! Posso falar sobre o Tailor ou ajudar com pagamentos, medidas e formas de entrega."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#duvidas-oqsolicitar",
+      "dialog_node": "node_11_1556902088906",
+      "previous_sibling": "node_13_1556905618210"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu posso te ajudar com formas de pagamento, medidas e modos de envio!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#tirar-duvida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556910071557",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode reformular sua frase ou me perguntar em que posso te ajudar!"
+              },
+              {
+                "text": "Não estou entendendo sua frase, tente escrever de outra maneira."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_12_1556904003148"
+    },
+    {
+      "type": "frame",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Posso lhe auxiliar com alguns assuntos como formas de pagamento, modos de envio e tamanho das roupas. O que você deseja?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    }
+  ],
+  "workspace_id": "7e2e7910-0c74-4d69-ba52-ce13c6c85916",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Training"
+}
