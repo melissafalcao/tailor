@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0478C838227B753900650B07 /* PerfilCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478C837227B753900650B07 /* PerfilCollectionViewController.swift */; };
+		04B188EA227A343B005957B1 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B188E9227A343B005957B1 /* PerfilViewController.swift */; };
+		04B188EC227A3DFD005957B1 /* CarrinhoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B188EB227A3DFD005957B1 /* CarrinhoTableViewController.swift */; };
+		04B188F4227A45FA005957B1 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 04B188F3227A45FA005957B1 /* Assets */; };
+		04B188FA227A48AD005957B1 /* tailor.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B188F9227A48AD005957B1 /* tailor.png */; };
+		04B188FE227A90DC005957B1 /* CarrinhoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B188FD227A90DC005957B1 /* CarrinhoTableViewCell.swift */; };
+		3F6852612277C932003A9166 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6852602277C932003A9166 /* ItemViewController.swift */; };
+		3FD33AE1227B9ADE008D1E53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD33AE0227B9ADE008D1E53 /* Images.xcassets */; };
+		3FD33AE6227B9C78008D1E53 /* MensagensTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AE5227B9C78008D1E53 /* MensagensTableViewController.swift */; };
+		3FD33AE8227B9CB2008D1E53 /* Contatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AE7227B9CB2008D1E53 /* Contatos.swift */; };
+		3FD33AEA227B9CDA008D1E53 /* MensagensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AE9227B9CDA008D1E53 /* MensagensTableViewCell.swift */; };
+		3FD33AEC227B9EB2008D1E53 /* Costureiras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AEB227B9EB2008D1E53 /* Costureiras.swift */; };
+		3FD33AEE227B9F00008D1E53 /* BuscaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AED227B9F00008D1E53 /* BuscaTableViewController.swift */; };
+		3FD33AF0227B9F25008D1E53 /* BuscaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AEF227B9F25008D1E53 /* BuscaTableViewCell.swift */; };
+		3FD33AF2227BA17E008D1E53 /* BotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD33AF1227BA17E008D1E53 /* BotViewController.swift */; };
+		65550610227CA7D800E5065C /* itensDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555060F227CA7D800E5065C /* itensDAO.swift */; };
+		65550616227CD07900E5065C /* carrinhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65550615227CD07900E5065C /* carrinhoViewController.swift */; };
+		77E6C76A1F2E38440015ED2A /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C7651F2E38270015ED2A /* Photos.plist */; };
+		77E6C76B1F2E38470015ED2A /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C7661F2E38270015ED2A /* Photos.xcassets */; };
+		77E6C76C1F2E384A0015ED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C75B1F2E38270015ED2A /* AppDelegate.swift */; };
+		77E6C76D1F2E385E0015ED2A /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C75F1F2E38270015ED2A /* PinterestLayout.swift */; };
+		77E6C76E1F2E385E0015ED2A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C7681F2E38270015ED2A /* Photo.swift */; };
+		77E6C76F1F2E385E0015ED2A /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */; };
+		77E6C7701F2E385E0015ED2A /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C7611F2E38270015ED2A /* AnnotatedPhotoCell.swift */; };
+		7B0AC7C11AAEF90000885D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AC7BF1AAEF90000885D4A /* Main.storyboard */; };
+		7B0AC7C61AAEF90000885D4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AC7C41AAEF90000885D4A /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0478C837227B753900650B07 /* PerfilCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilCollectionViewController.swift; sourceTree = "<group>"; };
+		04B188E9227A343B005957B1 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		04B188EB227A3DFD005957B1 /* CarrinhoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrinhoTableViewController.swift; sourceTree = "<group>"; };
+		04B188F3227A45FA005957B1 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		04B188F9227A48AD005957B1 /* tailor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tailor.png; path = Assets/Photos.xcassets/tailor.imageset/tailor.png; sourceTree = "<group>"; };
+		04B188FD227A90DC005957B1 /* CarrinhoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrinhoTableViewCell.swift; sourceTree = "<group>"; };
+		3F6852602277C932003A9166 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		3FD33AE0227B9ADE008D1E53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FD33AE5227B9C78008D1E53 /* MensagensTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensTableViewController.swift; sourceTree = "<group>"; };
+		3FD33AE7227B9CB2008D1E53 /* Contatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contatos.swift; sourceTree = "<group>"; };
+		3FD33AE9227B9CDA008D1E53 /* MensagensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensTableViewCell.swift; sourceTree = "<group>"; };
+		3FD33AEB227B9EB2008D1E53 /* Costureiras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costureiras.swift; sourceTree = "<group>"; };
+		3FD33AED227B9F00008D1E53 /* BuscaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaTableViewController.swift; sourceTree = "<group>"; };
+		3FD33AEF227B9F25008D1E53 /* BuscaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaTableViewCell.swift; sourceTree = "<group>"; };
+		3FD33AF1227BA17E008D1E53 /* BotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotViewController.swift; sourceTree = "<group>"; };
+		6555060F227CA7D800E5065C /* itensDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itensDAO.swift; sourceTree = "<group>"; };
+		65550615227CD07900E5065C /* carrinhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carrinhoViewController.swift; sourceTree = "<group>"; };
+		77E6C75B1F2E38270015ED2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
+		77E6C75F1F2E38270015ED2A /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		77E6C7611F2E38270015ED2A /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
+		77E6C7651F2E38270015ED2A /* Photos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		77E6C7661F2E38270015ED2A /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		77E6C7681F2E38270015ED2A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		7B0AC7B61AAEF90000885D4A /* Tailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0AC7BA1AAEF90000885D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B0AC7C01AAEF90000885D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B0AC7C51AAEF90000885D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B0AC7B31AAEF90000885D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E6C75C1F2E38270015ED2A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65550615227CD07900E5065C /* carrinhoViewController.swift */,
+				04B188EB227A3DFD005957B1 /* CarrinhoTableViewController.swift */,
+				3F6852602277C932003A9166 /* ItemViewController.swift */,
+				04B188E9227A343B005957B1 /* PerfilViewController.swift */,
+				77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */,
+				0478C837227B753900650B07 /* PerfilCollectionViewController.swift */,
+				6555060F227CA7D800E5065C /* itensDAO.swift */,
+				04B188FD227A90DC005957B1 /* CarrinhoTableViewCell.swift */,
+				3FD33AE5227B9C78008D1E53 /* MensagensTableViewController.swift */,
+				3FD33AE7227B9CB2008D1E53 /* Contatos.swift */,
+				3FD33AE9227B9CDA008D1E53 /* MensagensTableViewCell.swift */,
+				3FD33AEB227B9EB2008D1E53 /* Costureiras.swift */,
+				3FD33AED227B9F00008D1E53 /* BuscaTableViewController.swift */,
+				3FD33AEF227B9F25008D1E53 /* BuscaTableViewCell.swift */,
+				3FD33AF1227BA17E008D1E53 /* BotViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		77E6C75E1F2E38270015ED2A /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C75F1F2E38270015ED2A /* PinterestLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		77E6C7601F2E38270015ED2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C7611F2E38270015ED2A /* AnnotatedPhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77E6C7631F2E38270015ED2A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FD33AE0227B9ADE008D1E53 /* Images.xcassets */,
+				77E6C7651F2E38270015ED2A /* Photos.plist */,
+				77E6C7661F2E38270015ED2A /* Photos.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		77E6C7671F2E38270015ED2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C7681F2E38270015ED2A /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B0AC7AD1AAEF90000885D4A = {
+			isa = PBXGroup;
+			children = (
+				7B0AC7B81AAEF90000885D4A /* Pinterest */,
+				7B0AC7B71AAEF90000885D4A /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		7B0AC7B71AAEF90000885D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B0AC7B61AAEF90000885D4A /* Tailor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B0AC7B81AAEF90000885D4A /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C75B1F2E38270015ED2A /* AppDelegate.swift */,
+				77E6C7631F2E38270015ED2A /* Assets */,
+				77E6C75E1F2E38270015ED2A /* Layouts */,
+				77E6C7671F2E38270015ED2A /* Models */,
+				77E6C75C1F2E38270015ED2A /* View Controllers */,
+				77E6C7601F2E38270015ED2A /* Views */,
+				7B0AC7E11AAEF9CE00885D4A /* Storyboards & Xibs */,
+				7B0AC7B91AAEF90000885D4A /* Supporting Files */,
+			);
+			path = Pinterest;
+			sourceTree = "<group>";
+		};
+		7B0AC7B91AAEF90000885D4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0AC7BA1AAEF90000885D4A /* Info.plist */,
+				04B188F9227A48AD005957B1 /* tailor.png */,
+				04B188F3227A45FA005957B1 /* Assets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B0AC7E11AAEF9CE00885D4A /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7B0AC7BF1AAEF90000885D4A /* Main.storyboard */,
+				7B0AC7C41AAEF90000885D4A /* LaunchScreen.xib */,
+			);
+			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B0AC7B51AAEF90000885D4A /* Tailor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0AC7D51AAEF90000885D4A /* Build configuration list for PBXNativeTarget "Tailor" */;
+			buildPhases = (
+				7B0AC7B21AAEF90000885D4A /* Sources */,
+				7B0AC7B31AAEF90000885D4A /* Frameworks */,
+				7B0AC7B41AAEF90000885D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tailor;
+			productName = Pinterest;
+			productReference = 7B0AC7B61AAEF90000885D4A /* Tailor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B0AC7AE1AAEF90000885D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tailor INC";
+				TargetAttributes = {
+					7B0AC7B51AAEF90000885D4A = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = NFG7Q88H6L;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 7B0AC7B11AAEF90000885D4A /* Build configuration list for PBXProject "Tailor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B0AC7AD1AAEF90000885D4A;
+			productRefGroup = 7B0AC7B71AAEF90000885D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B0AC7B51AAEF90000885D4A /* Tailor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B0AC7B41AAEF90000885D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B188FA227A48AD005957B1 /* tailor.png in Resources */,
+				3FD33AE1227B9ADE008D1E53 /* Images.xcassets in Resources */,
+				7B0AC7C11AAEF90000885D4A /* Main.storyboard in Resources */,
+				04B188F4227A45FA005957B1 /* Assets in Resources */,
+				7B0AC7C61AAEF90000885D4A /* LaunchScreen.xib in Resources */,
+				77E6C76B1F2E38470015ED2A /* Photos.xcassets in Resources */,
+				77E6C76A1F2E38440015ED2A /* Photos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B0AC7B21AAEF90000885D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD33AF2227BA17E008D1E53 /* BotViewController.swift in Sources */,
+				3FD33AE8227B9CB2008D1E53 /* Contatos.swift in Sources */,
+				77E6C76E1F2E385E0015ED2A /* Photo.swift in Sources */,
+				77E6C76D1F2E385E0015ED2A /* PinterestLayout.swift in Sources */,
+				77E6C76C1F2E384A0015ED2A /* AppDelegate.swift in Sources */,
+				3FD33AF0227B9F25008D1E53 /* BuscaTableViewCell.swift in Sources */,
+				04B188EC227A3DFD005957B1 /* CarrinhoTableViewController.swift in Sources */,
+				77E6C76F1F2E385E0015ED2A /* PhotoStreamViewController.swift in Sources */,
+				3FD33AEA227B9CDA008D1E53 /* MensagensTableViewCell.swift in Sources */,
+				77E6C7701F2E385E0015ED2A /* AnnotatedPhotoCell.swift in Sources */,
+				65550616227CD07900E5065C /* carrinhoViewController.swift in Sources */,
+				0478C838227B753900650B07 /* PerfilCollectionViewController.swift in Sources */,
+				04B188EA227A343B005957B1 /* PerfilViewController.swift in Sources */,
+				65550610227CA7D800E5065C /* itensDAO.swift in Sources */,
+				3FD33AEC227B9EB2008D1E53 /* Costureiras.swift in Sources */,
+				3FD33AE6227B9C78008D1E53 /* MensagensTableViewController.swift in Sources */,
+				3F6852612277C932003A9166 /* ItemViewController.swift in Sources */,
+				3FD33AEE227B9F00008D1E53 /* BuscaTableViewController.swift in Sources */,
+				04B188FE227A90DC005957B1 /* CarrinhoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B0AC7BF1AAEF90000885D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B0AC7C01AAEF90000885D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B0AC7C41AAEF90000885D4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B0AC7C51AAEF90000885D4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B0AC7D31AAEF90000885D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7B0AC7D41AAEF90000885D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B0AC7D61AAEF90000885D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NFG7Q88H6L;
+				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.pinterestlayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7B0AC7D71AAEF90000885D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NFG7Q88H6L;
+				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.pinterestlayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B0AC7B11AAEF90000885D4A /* Build configuration list for PBXProject "Tailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0AC7D31AAEF90000885D4A /* Debug */,
+				7B0AC7D41AAEF90000885D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B0AC7D51AAEF90000885D4A /* Build configuration list for PBXNativeTarget "Tailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0AC7D61AAEF90000885D4A /* Debug */,
+				7B0AC7D71AAEF90000885D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B0AC7AE1AAEF90000885D4A /* Project object */;
+}
